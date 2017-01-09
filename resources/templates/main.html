@@ -1,0 +1,16 @@
+<html>
+<body>
+
+
+
+{{#personList}}
+
+ <a href="/?offset = 20"> {{firstName}} - {{lastName}} </a> <br>
+{{/personList}}
+
+{{#prevOffset}}<a href="/?offset={{prevOffset}}">Previous</a>{{/prevOffset}} {{#nextOffset}}<a href="/?offset={{nextOffset}}">Next</a>
+
+
+
+</body>
+</html>
